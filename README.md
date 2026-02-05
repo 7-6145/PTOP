@@ -1,31 +1,34 @@
-# 公交优化项目
+# Bus Stop Optimization Project
 
-## 项目说明
-这是一个针对温州市公交线路优化的数据分析项目。
+## Project Description
+This is a data analysis project aimed at optimizing the bus routes in Wenzhou City.
 
-## 数据文件
-- `populaiton/温州_population_grid.csv` - 温州市人口网格数据
-- `公交站点shp/` - 温州市公交站点空间数据文件夹
-  - `0577温州.shp` - 主要的空间数据文件
-  - 其他配套文件：`.cpg`, `.dbf`, `.prj`, `.sbn`, `.sbx`, `.shx`
+## Data file
+- `populaiton/Wenzhou_population_grid.csv` - Wenzhou City Population Grid Data
+- `Bus Stop shp/` - Wenzhou City Public Transport Stop Spatial Data Folder
+  - `0577Wenzhou.shp` - The main spatial data files
+  - Other supporting documents: `.cpg`, `.dbf`, `.prj`, `.sbn`, `.sbx`, `.shx`
 
-## 工作流程说明
+## System requirements
+Windows 10 and above
 
-### 重要：代码运行规则
-**本项目所有代码均不在Claude中直接运行！**
+## Work Flow Description
 
-当需要执行代码时：
-1. Claude会明确指出需要运行的具体文件或命令
-2. 用户在IDE中手动运行代码
-3. 如有报错，用户将错误信息复制给Claude进行分析和修复
+### Important: Code Execution Rules
+**All the code in this project is not executed directly in Claude! **
 
-### 开发流程
-1. 数据探索和清理
-2. 空间数据分析
-3. 公交网络优化算法开发
-4. 结果可视化和报告生成
+When it is necessary to execute the code:
+1. Claude will clearly indicate the specific file or command that needs to be run.
+2. The user runs the code manually in the IDE.
+3. If there are errors, the user copies the error information to Claude for analysis and repair.
 
-## 技术栈
-- Python 数据分析
-- 空间数据处理（GeoPandas、GDAL等）
-- 网络分析和优化算法
+### Development Process
+1. Data Exploration and Cleaning
+2. Spatial Data Analysis
+3. Development of Bus Network Optimization Algorithm
+4. Result Visualization and Report Generation
+
+## Technology Stack
+- Python for Data Analysis
+- Spatial Data Processing (GeoPandas, GDAL, etc.)
+- Network Analysis and Optimization Algorithms
