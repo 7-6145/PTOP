@@ -1,7 +1,7 @@
 # Bus Stop Optimization Project
 
 ## Project Description
-This is a data analysis project aimed at optimizing the bus routes in Wenzhou City.
+This is a data analysis project aimed at optimizing the bus stops in Wenzhou City.
 
 ## Data file
 - `populaiton/Wenzhou_population_grid.csv` - Wenzhou City Population Grid Data
